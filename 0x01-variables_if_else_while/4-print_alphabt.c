@@ -1,4 +1,4 @@
-#include <stdio.h>
+nclude <stdio.h>
 
 /**
  * main - Entry point
@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-	char ch;
+		char ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		if (ch == 'e' || ch == 'q')
-			continue;
-		putchar(ch);
-	}										}
-	putchar('\n');
-  	return (0);
+			for (ch = 'a'; ch <= 'z'; ch++)
+					{
+								if (ch == 'e' || ch == 'q')
+												continue;
+										putchar(ch);
+											}
+				putchar('\n');
+					return (0);
 }
